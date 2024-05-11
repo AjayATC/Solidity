@@ -18,7 +18,10 @@ contract Ballot {
         uint voteCount; // number of accumulated votes
     }
 
+    //variable to store start time of voting period
     uint256 public startTime;
+    
+    //duration of voting period
     uint256 public constant votingDuration = 5 minutes;
 
     //modifier to check if voting period is ended
